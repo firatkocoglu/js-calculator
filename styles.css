@@ -1,0 +1,42 @@
+html body {
+  font-family: 'JetBrains Mono';
+  height: 100%;
+}
+
+#container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#calculator {
+  width: 286px;
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+
+.button {
+  padding: 1.5rem;
+  background-color: gainsboro;
+}
+
+#display {
+  text-align: right;
+  font-size: x-large;
+  width: 95%;
+}
+
+#zero {
+  width: 133px;
+}
+
+#clear {
+  width: 133px;
+}
+
+#equals {
+  position: absolute;
+  margin-left: 9.5px;
+  height: 152px;
+}
